@@ -1,0 +1,55 @@
+section#post {
+	margin: 0 auto;
+	max-width: $post-width;
+	padding-left: $minimum-side-padding;
+	padding-right: $minimum-side-padding;
+	color: $text-color;
+	& h1.title {
+		font-size: 2.4rem;
+		margin-bottom: -20px;
+		margin-top: 50px;
+	}
+	& h1, h2, h3, h4, h5, h6 {
+		font-family: $header-font;
+		font-weight: 700;
+		margin-bottom: -25px;
+		font-size: 1.5rem;
+	}
+	& b {
+		font-weight: 400;
+	}
+	& p {
+		font-weight: 300;
+		font-size: 1.25rem;
+		line-height: 1.8rem;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	& blockquote {
+		border-left: 1px solid #999;
+		padding-left: 15px;
+		color: #666;
+	}
+	& a {
+		text-decoration: none;
+		color: $text-color;
+		border-bottom: 1px solid $link-underline;
+	}
+	& ul {
+		font-weight: 300;
+		font-size: 1.25rem;
+		list-style-type: circle;
+	}
+	& .first-letter:first-letter {
+		font-size: 250%;
+		float: left;
+		margin-top: 0.9rem;
+		margin-right: 2px;
+	}
+	& .first-line:first-line {
+		font-variant: small-caps;
+	}
+	&:first-child {
+		margin-top: 0px;
+	}
+}

@@ -1,0 +1,13 @@
+.divider {
+	margin: 25px 0;
+	height: 1px;
+	width: 90%;
+	margin-left: 5%;
+	background: $divider-color;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.35)), color-stop(100%,hsla(0,0%,0%,0)));
+	background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.35) 50%, hsla(0,0%,0%,0) 100%);
+	background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.35) 50%, hsla(0,0%,0%,0) 100%);
+	background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.35) 50%, hsla(0,0%,0%,0) 100%);
+	background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.35) 50%, hsla(0,0%,0%,0) 100%);
+	background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.35) 50%, hsla(0,0%,0%,0) 100%);
+}

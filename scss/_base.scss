@@ -1,0 +1,30 @@
+section,
+header,
+footer {
+    display: block;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $background;
+    font-family: $body-font;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    // Responsive IMGs
+    max-width: 100%;
+    width: auto\9; /*iefix*/
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}

@@ -1,0 +1,17 @@
+//Sizes
+$post-width: 600px; //the maximum with of a post. For fullscreen, replace "600px" with "100%"
+$minimum-side-padding: 15px; //padding on the side of the post, used so the text doesn't hit the edge of the screen on mobile or small tablets
+
+//Colors
+$background: #FCFEFF; //can be replaced with a hex value or any other color value.
+$divider-color: #666; //Just a fallback, see _divider.scss to change the main colors etc.
+$text-color: #555; //The color used for the text and for the links.
+$link-underline: #999; //Link underline color
+$menu-link: #DFE5EB; //Color of the links in the menu
+
+//Fonts
+$header-font: 'Merriweather', serif; // H1 - H6 Font
+$body-font: 'Lato', sans-serif; //Main Body Font
+
+//Transitions
+$transition-speed: 300ms; //Speed of transitions in milliseconds or seconds
